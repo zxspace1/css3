@@ -1,35 +1,10 @@
-* {
-    color: lightgray;
+#pierwszy::before {
+    content: "Przed pierwszym paragrafem";
+        color: red;
 }
-p {
-    color: orange;
-}
-#kasia {
-    color: pink;
-}
-.lorak {
+
+#drugi::after {
+    content: "Za tekstem";
     color: blue;
 }
-ul a {
-    color: red;
-}
-
-a > span {
-    background-color: beige;
-    
-}
-
-li#pierwszy + li {
-    background-color: ghostwhite;
-}
-div.lorak {
-    color: aqua;
-}
-
-
-
-
-
-
-
 

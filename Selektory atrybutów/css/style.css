@@ -1,0 +1,28 @@
+[title] {
+    color: red;
+}
+
+[title="About me"] {
+    color: orange;
+}
+
+[title ~ ="Container"] {
+    color: black;
+}
+
+[title*="ection"] {
+    background-color: lime;
+}
+
+[title^="More"] {
+    background-color: pink;
+
+}
+
+[title$="skills"] {
+    background-color: grey;
+}
+
+[title]:last-child {
+    background-color: aqua;
+}

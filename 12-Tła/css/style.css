@@ -1,0 +1,23 @@
+body {
+    background-color: red;
+}
+
+p {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.bg {
+    /*
+    background-color: rgba(147, 255, 67, 1);
+    background-image: url(../img/pobrane.png);
+    background-repeat: no-repeat;
+*/
+    /*background-position: center center;*/
+    /*background-position: 100px 50px;*/
+    /*    background-size: contain;*/
+    /*    background-size: 200px 90px;*/
+    background: rgba(147, 255, 67, 1) url(../img/pobrane.png) no-repeat 100px 50px;
+    background-size: 500px auto;
+
+}

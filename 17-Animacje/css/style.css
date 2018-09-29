@@ -1,0 +1,23 @@
+.animate {
+    height: 200px;
+    background-color: darkkhaki;
+/*
+    animation-name: resize;
+    animation-duration: 6s;
+*/
+    animation: resize 6s steps(6,end) 0s forwards;
+}
+
+@keyframes resize {
+
+    0%,
+    100% {
+        width: 100%;
+        transform: translateX(0)
+    }
+
+    50% {
+        width: 50%;
+        transform: translateX(200px);
+    }
+}

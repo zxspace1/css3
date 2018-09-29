@@ -1,0 +1,114 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    width: 80%;
+    height: 50%;
+    background-color: blueviolet;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin: 0 auto;
+}
+
+.box-el {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    outline: 2px solid #fff;
+}
+
+#box-2 {
+    left: 100px;
+    top: 0;
+    background-color: aquamarine;
+}
+
+#box-3 {
+    left: 200px;
+    top: 0;
+    background-color: bisque;
+}
+
+#box-4 {
+    left: 0;
+    top: 100px;
+    background-color: yellow;
+}
+
+#box-5 {
+    left: 100px;
+    top: 100px;
+    background-color: skyblue;
+}
+
+#box-6 {
+    left: 200px;
+    top: 100px;
+    background-color: silver;
+}
+#box-7 {
+    left: 0;
+    top: 200px;
+    background-color: black;
+}
+
+#box-8 {
+    left: 100px;
+    top: 200px;
+    background-color: orange;
+}
+
+#box-9 {
+    left: 200px;
+    top: 200px;
+    background-color: green;
+}
+.box-el::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    background-color: brown;
+    border-radius: 50%;
+    border: 1px solid #000;
+    
+}
+#box-2::before {
+    background-color: yellow;
+}
+#box-3::before {
+    background-color: yellow;
+}
+#box-4::before {
+    background-color: yellow;
+}
+#box-5::before {
+    background-color: yellow;
+}
+#box-6::before {
+    background-color: yellow;
+}
+#box-7::before {
+    background-color: yellow;
+}
+#box-8::before {
+    background-color: yellow;
+}
+#box-8::before {
+    background-color: yellow;
+}
+
+

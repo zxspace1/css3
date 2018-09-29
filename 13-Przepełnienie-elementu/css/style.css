@@ -1,0 +1,20 @@
+.box {
+    display: inline-block;
+    width: 20%;
+    height: 150px;
+    border: 1px solid red;
+    font-size: 1.3rem;
+    vertical-align: top;
+}
+
+.box-hidden {
+    overflow: hidden;
+}
+
+.box-scroll {
+    overflow: scroll;
+    white-space: nowrap;
+}
+.box-auto {
+    overflow: auto;
+}

@@ -1,0 +1,17 @@
+@media screen and (max-width: 1024px) {
+    .box {
+        width: 50%;
+        border-width: 50px;
+        background-color: cadetblue;
+    }
+}
+@media screen and (max-width: 480px) {
+    .box {
+        width: 80%;
+        float: none;
+        margin: 20px auto;
+    }
+    .box button {
+        display: inline-block;
+    }
+}

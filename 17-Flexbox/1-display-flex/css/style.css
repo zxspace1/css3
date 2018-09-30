@@ -1,0 +1,15 @@
+.flex-item {
+    border: 1px solid blue;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+.flex-item:nth-of-type(2n) {
+    background-color: chartreuse;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
